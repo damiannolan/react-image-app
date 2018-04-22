@@ -50,10 +50,10 @@ class Search extends Component {
                 
                 <SelectField 
                     name = 'amount'
-                    floatingLabelText = 'Amount'
+                    floatingLabelText = 'Max Images'
                     value = { this.state.amount }
                     onChange = { this.onAmountChange }
-                    style = {{ verticalAlign: 'bottom' }}
+                    style = {{ verticalAlign: 'bottom'}}
                     >
 
                     <MenuItem value = { 5 } primaryText = '5' />
