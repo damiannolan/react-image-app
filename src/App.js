@@ -2,11 +2,8 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { deepPurple500 } from 'material-ui/styles/colors';
-
-
 import NavBar from './components/navbar/NavBar';
 import Search from './components/search/Search';
-
 import './App.css';
 
 const muiTheme = getMuiTheme({
