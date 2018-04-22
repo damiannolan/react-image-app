@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <div>
+        <div style={{ textAlign: 'center'}}>
           <NavBar />
           <Search />
         </div>
